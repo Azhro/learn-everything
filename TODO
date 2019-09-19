@@ -6,6 +6,7 @@ Todo:
       ☐ Navbar
         ✔ Mobile friendly < 768px screen @done(19-09-19 16:16)
         ✔ onClick nav-btn show/fold Navbar @done(19-09-19 16:16)
+        ☐ Icons for menu styling
       ☐ Loading
       ☐ Banner
 
@@ -15,7 +16,10 @@ Todo:
 
 
   Back End @high:
-    ☐ NodeJS
+    
 
   Project Structure @critical:
+    ☐ Create a readme.md
+    ☐ Create a licence.md
+
 

@@ -1,0 +1,19 @@
+
+Todo:
+  User Interface @high:
+    Setting up base components:
+      ✔ Title @done(19-09-19 14:57)
+      ☐ Navbar
+      ☐ Loading
+      ☐ Banner
+
+    Setting up base css:
+      ☐ Styling for Title component
+      ☐ 
+
+
+  Back End @high:
+    ☐ NodeJS
+
+  Project Structure @critical:
+    

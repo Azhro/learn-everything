@@ -4,16 +4,18 @@ Todo:
     Setting up base components:
       ✔ Title @done(19-09-19 14:57)
       ☐ Navbar
+        ✔ Mobile friendly < 768px screen @done(19-09-19 16:16)
+        ✔ onClick nav-btn show/fold Navbar @done(19-09-19 16:16)
       ☐ Loading
       ☐ Banner
 
     Setting up base css:
-      ☐ Styling for Title component
-      ☐ 
+      ✔ Styling for Title component @done(19-09-19 15:47)
+      ✔ Styling for Navbar component @done(19-09-19 16:17)
 
 
   Back End @high:
     ☐ NodeJS
 
   Project Structure @critical:
-    
+

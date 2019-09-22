@@ -7,8 +7,13 @@ Todo:
         ✔ Mobile friendly < 768px screen @done(19-09-19 16:16)
         ✔ onClick nav-btn show/fold Navbar @done(19-09-21 14:37)
         ☐ Include SearchBar in Navbar 
-      ☐ Searchbar
+      
+      ☐ Sidebar
+        ☐ map through list of items
+      
+        ☐ Searchbar
         ☐ add search button
+      
       ☐ Loading
       ☐ Banner
 

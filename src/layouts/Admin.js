@@ -26,7 +26,7 @@ const switchRoutes = (
 export default function Admin() {
   return (
     <div>
-      <Sidebar color="blue" />
+      <Sidebar routes={routes} color="blue" />
     </div>
   );
 }

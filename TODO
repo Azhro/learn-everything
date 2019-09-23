@@ -25,7 +25,8 @@ Todo:
       ✔ Global styling @done(19-09-21 14:41)
 
 
-      ☐ Upgrade css to bootstrap4 @critical 
+      ☐ Make jss assets for components @critical 
+        ☐ global settings for the projects in /src/assets/learn-everything-style.js
 
 
   Back End @high:

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
 // Core components
-import Sidebar from "../components/Sidebar/Sidebar";
+import Sidebar from "components/Sidebar/Sidebar";
 
-import routes from "../Routes";
+import routes from "Routes";
 
 const switchRoutes = (
   <Switch>

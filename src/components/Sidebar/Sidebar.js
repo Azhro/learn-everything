@@ -5,7 +5,14 @@ import { NavLink } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import { List, ListItem, ListItemText, Icon } from "@material-ui/core";
+import {
+  List,
+  ListItem,
+  ListItemText,
+  Icon,
+  Hidden,
+  Drawer
+} from "@material-ui/core";
 
 // Core components
 import styles from "assets/components/SidebarStyle.js";
@@ -36,7 +43,9 @@ export default function Sidebar(props) {
               {typeof prop.icon === "string" ? (
                 <Icon
                   className={classNames(classes.itemIcon, whiteFontClasses)}
-                ></Icon>
+                >
+                  {prop.icon}
+                </Icon>
               ) : (
                 <prop.icon className={(classes.itemIcon, whiteFontClasses)} />
               )}
@@ -52,5 +61,23 @@ export default function Sidebar(props) {
     </List>
   );
 
-  return <div>{links}</div>;
+  let brand = <div classNames={classes.logo}></div>;
+
+  return (
+    <div>
+      <Hidden mdUp>
+        <p>Hello</p>
+      </Hidden>
+      <Hidden smDown>
+        <Drawer
+          anchor="left"
+          variant="permanent"
+          open
+          classes={{ paper: classNames(classes.drawerPaper) }}
+        >
+          <div className={classes.sidebarWrapper}>{links}</div>
+        </Drawer>
+      </Hidden>
+    </div>
+  );
 }

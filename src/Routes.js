@@ -20,6 +20,20 @@ const routes = [
     icon: Person,
     component: UserProfile,
     layout: "/admin"
+  },
+  {
+    path: "/test1",
+    name: "test1",
+    icon: Person,
+    component: UserProfile,
+    layout: "/admin"
+  },
+  {
+    path: "/test2",
+    name: "test2",
+    icon: Person,
+    component: UserProfile,
+    layout: "/admin"
   }
 ];
 
